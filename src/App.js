@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Navbars from './Navbar';
-import Slides from './Slides';
-import Smallcard from './Smallcard';
-import Videocard from './Videocard';
+import Navbars from './Component/Navbar';
+import Slides from './Component/Slides';
+import Smallcard from './Component/Smallcard';
+import Videocard from './Component/Videocard';
 
 
 function App() {

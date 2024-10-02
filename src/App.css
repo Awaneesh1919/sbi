@@ -68,3 +68,31 @@ h4{
 .flex-container > Card{
   margin: 10px;
 }
+
+.hi {
+  background-image: url(https://www.sbisecurities.in/assets/images/Vector_9.webp) !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: auto;
+}
+
+TabsList {
+  background-color: linear-gradient(90deg, rgb(42, 31, 117) 15.6%, rgb(218, 29, 82) 100%) !important;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* const TabsList = styled(BaseTabsList)(
+  ({ theme }) => `
+  min-width: 400px;
+  background-color: ${blue[500]};
+  border-radius: 12px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  box-shadow: 0px 4px 30px ${theme.palette.mode === 'dark' ? grey[900] : grey[200]};
+  `, */
